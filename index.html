@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg">
+        <a class="navbar-brand" href="#">Data Dig</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <!-- <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li> -->
+            </ul>
+        </div>
+    </nav>
+
+    <header class="text-center py-5 bgHeader" id="home">
+        <div class="container">
+            <h1>Data Visualization Portfolio</h1>
+            <p class="lead">web data visualizations created with JavaScript libraries and ggplot2</p>
+        </div>
+    </header>
+
+    <section class="py-5" id="projects">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                          <a href="https://zhan-py.github.io/donation-dashboard/" target="_blank" class="linkColor">
+                            <h5 class="card-title">Donation Dashboard</h5>
+                          </a>                        
+                            <p class="card-text"><strong>Date:</strong> December 2023</p>
+                            <p class="card-text">Developed a dashboard for the Church Donation Application, a Python Django project, to enhance the church's ability to manage donations effectively.</p>
+                            <ul>
+                                <li>Defined key metrics and selected appropriate visualizations to convey insights.</li>
+                                <li>Used Chart.js for interactive charts.</li>
+                                <li>Designed Database and employed Python ORM.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                          <a href="https://zhanp.shinyapps.io/data-tour/" target="_blank" class="linkColor">
+                            <h5 class="card-title">Data Tour</h5>
+                          </a>  
+                            <p class="card-text"><strong>Date:</strong> November 2023</p>
+                            <p class="card-text">Developed data visualizations using ggplot2 and Shiny with Ontario Government Data.</p>
+                            <ul>
+                                <li>Cleaned and processed data.</li>
+                                <li>Designed an interactive dashboard with Shiny and ggplot2.</li>
+                                <li>Applied a jasper green color palette for enhanced style.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                          <a href="https://zhan-py.github.io/chart-cat/" target="_blank" class="linkColor">
+                            <h5 class="card-title">Chart Cat</h5>
+                          </a>  
+                            <p class="card-text"><strong>Date:</strong> June 2023</p>
+                            <p class="card-text">Developed various kinds of interactive web data visualizations using Highcharts.js.</p>
+                            <ul>
+                                <li>Created diverse chart types including combo, pie with drilldown, and 3D bubble charts.</li>
+                                <li>Styled the page with customized Bootstrap.</li>
+                                <li>Implemented accessibility features</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
