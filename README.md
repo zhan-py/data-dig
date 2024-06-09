@@ -1,4 +1,4 @@
 # Projects Portfolio
 
-Some of my web and data visualization projects created using various technologies, such as Django, Svelte, R/ggplot2, and some JavaScript data visualization libraries.
+Some of my web and data visualization [projects](https://zhan-py.github.io/web-data-wings/) created using various technologies, such as Django, Svelte, R/ggplot2, and some JavaScript data visualization libraries.
 
