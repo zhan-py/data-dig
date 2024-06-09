@@ -1,4 +1,4 @@
-# Data Visualization Project
+# Projects Portfolio
 
-This document highlights some of the key projects I have worked on, demonstrating my skills in data visualization and web development.
+Some of my web and data visualization projects created using various technologies, such as Django, Svelte, R/ggplot2, and some JavaScript data visualization libraries.
 

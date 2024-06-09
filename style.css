@@ -22,7 +22,7 @@ footer {
 }
 
 .bg {
-  background-color: #1C9099;
+  background-color: #F9F9F9;
 }
 
 .bgHeader {
@@ -38,3 +38,31 @@ footer {
   color: #1C9099;
   font-weight: bold;
 }
+
+.navbar {
+  height: 80px;
+  
+}
+
+.navbar-nav .nav-link {
+  line-height: 80px; 
+}
+
+.btn-yellow {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: #fff;
+}
+
+.btn-yellow:hover {
+  background-color: #ffca28;
+  border-color: #ffca28;
+  color: #fff;
+}
+
+.btn-yellow:active {
+  background-color: #ffa000;
+  border-color: #ffa000;
+  color: #fff;
+}
+
